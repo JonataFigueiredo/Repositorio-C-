@@ -7,7 +7,7 @@ class Program
     Console.WriteLine ("Olá, seja bem vindo");
     
     Console.WriteLine (" ");
-    
+
     Console.WriteLine ("Abaixo temos o menu");
     
     Console.WriteLine (" ");
@@ -23,6 +23,16 @@ class Program
     
     Console.WriteLine ("Para fazer o pedido, insira o código do produto: ");
     float a = float.Parse(Console.ReadLine());
+
+    
+    while(a < 1 || a > 5)
+    {
+      Console.WriteLine("Código invalido");
+      Console.WriteLine(" ");
+      Console.WriteLine ("Insira o código do produto entre 1 a 5: ");
+    a = float.Parse(Console.ReadLine());
+      
+    }
     
     Console.WriteLine (" ");
     
@@ -31,6 +41,17 @@ class Program
       {
         Console.WriteLine ("Digite a quantidade: ");
         float b = float.Parse(Console.ReadLine());
+        
+        while(b < 1)
+        {
+          Console.WriteLine("Quantidade inválida");
+          Console.WriteLine(" ");
+          Console.WriteLine ("Por favor, insira o número maior que 0: ");
+        b = float.Parse(Console.ReadLine());
+
+        }
+
+        Console.WriteLine (" ");
         
         if
         (a == 1)
@@ -81,6 +102,7 @@ class Program
 
     else
     Console.WriteLine ("Número não registrado");
-
+    Console.WriteLine ("Obrigado pela preferência");
+    
   }
 }
