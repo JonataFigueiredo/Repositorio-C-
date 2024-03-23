@@ -69,7 +69,7 @@ Console.WriteLine ("Digite  valor do nono espaço do vetor: ");
     for(i=0; i<10; i++)
     {
 
-    if(vetor[i] <=0)
+    if(vetor[i] <1)
     {
       vetor[i] = 1;
       Console.WriteLine("vetor[" + i + "]" + " = " + vetor[i]);
