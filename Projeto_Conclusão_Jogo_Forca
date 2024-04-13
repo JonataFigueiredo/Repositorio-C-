@@ -142,7 +142,7 @@ class Program
         Console.WriteLine ("            GAME OVER");
       }
       Console.WriteLine("  ");
-      Console.WriteLine(a4[0]+" - "+a4[1]+" - "+a4[2]+" - "+a4[3]+" - "+a4[4]+" - "+a4[5]);
+      Console.WriteLine(a4[0]+"  "+a4[1]+"  "+a4[2]+"  "+a4[3]+"  "+a4[4]+"  "+a4[5]);
       Console.WriteLine("  ");
 
       string chute = Console.ReadLine();
@@ -526,7 +526,7 @@ class Program
             Console.WriteLine ("|");
           }
           Console.WriteLine ("  ");
-          Console.WriteLine(a4[0]+" - "+a4[1]+" - "+a4[2]+" - "+a4[3]+" - "+a4[4]+" - "+a4[5]);
+          Console.WriteLine(a4[0]+"  "+a4[1]+"  "+a4[2]+"  "+a4[3]+"  "+a4[4]+"  "+a4[5]);
           Console.WriteLine("  ");
           Console.WriteLine("Parabens, você acertou");
 
@@ -545,7 +545,7 @@ class Program
           Console.WriteLine ("|");
           Console.WriteLine ("|");
           Console.WriteLine ("  ");
-          Console.WriteLine(a4[0]+" - "+a4[1]+" - "+a4[2]+" - "+a4[3]+" - "+a4[4]+" - "+a4[5]);
+          Console.WriteLine(a4[0]+"  "+a4[1]+"  "+a4[2]+"  "+a4[3]+"  "+a4[4]+"  "+a4[5]);
           Console.WriteLine ("  ");
           Console.WriteLine ("            GAME OVER");
           Console.WriteLine ("  ");
